@@ -10,20 +10,20 @@ body {
 section {
     width: 100vw;
 }
+/*
 section#section1 {
     background-color:#11ABBF;
     color: #EAEAEA;
-    padding: 3em 0px;
+     padding: 3em 0px; 
 }
+*/
 section#section2 {
     background-color:#27212D;
 }
-section#section3 {
 
-}
 section#section4 {
     background-color:#EAEAEA;
-    padding: 3em;
+    padding: 0px 3em;
 }
 
 h1 {
@@ -55,10 +55,14 @@ header {
 }
 /* ----------------------------- MAIN ------ */
 
-#section1>div {
-    margin: 4em 1em;
+.carousel-item img {
+    width: 60vw;
 }
 
+/* #section1>div {
+    margin: 4em 1em;
+}
+*/
 .rowflex {
     display: flex;
     flex-flow: row wrap;
@@ -68,13 +72,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-#section1 a {
-    text-decoration: none;
-    color: rgba(236, 236, 236, 0.692);
-    display: flex;
-    justify-content: space-between;
-    font-size: 3vw;
-}
+
 .container-grey {
     width: 70%;
     text-align: center;
@@ -98,7 +96,7 @@ header {
 
 .container-violet {
     background-color: purple;
-    width: 33vw;
+    width: 34vw;
     text-align: center;
     color: #EAEAEA;
 }
@@ -119,8 +117,12 @@ header {
 
 #section4 h2 {
     margin: 0px;
-    padding: 0em 0.4em 1em 0.4em;
+    padding: 1em 0.4em 1em 1em;
     color: rgb(13, 150, 168);
+}
+
+#nav-boot {
+    display: none;
 }
 
 @media screen and (max-width: 640px) {
@@ -137,6 +139,15 @@ header {
     #section4 p {
         width: 80vw;
     }
+    
 
 }
 
+@media screen and (max-width: 800px) {
+    #nav-me {
+        display: none;
+    }
+    #nav-boot {
+        display: block;
+    }
+}
