@@ -10,7 +10,8 @@ body {
 
 section#section1 {
     background-color:#11ABBF;
-    height: 30vh;
+    color: #EAEAEA;
+    padding: 3em 0px;
 }
 section#section2 {
     background-color:#27212D;
@@ -20,6 +21,12 @@ section#section3 {
 }
 section#section4 {
     background-color:#EAEAEA;
+    padding: 3em;
+}
+
+h1 {
+    font-size: 6vw;
+    margin-top: 0px;
 }
 
 /*--------------------------- HEADER ----------*/
@@ -38,4 +45,64 @@ nav ul li {
 header {
     background-color: #373C3F;
     color: #EAEAEA;
+}
+
+/* ----------------------------- MAIN ------ */
+
+#section1>div {
+    margin: 4em 1em;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.centrer {
+    justify-content: center;
+    align-items: center;
+}
+#section1 a {
+    text-decoration: none;
+    color: rgba(236, 236, 236, 0.692);
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vw;
+}
+.container-grey {
+    width: 70%;
+    text-align: center;
+}
+#section2 h2 {
+    color: rgb(194, 170, 218);
+    font-size: 2vw;
+}
+
+.container-rose {
+    background-color: #BC3184;
+    width: 30%;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 8vw 0px;
+}
+
+#section3 img {
+    width: 33vw;
+}
+
+.container-violet {
+    background-color: purple;
+    width: 33vw;
+}
+#section4 p {
+    width: 33vw;
+    line-height: 1.5em;
+    padding: 0px 2em;
+    color: #555;
+}
+
+#section4 h2 {
+    margin: 0px;
+    padding: 0px 1.2em;
+    color: rgb(13, 150, 168);
 }
