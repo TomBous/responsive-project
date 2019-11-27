@@ -7,7 +7,9 @@ body {
     padding: 0px;
     width: 100vw;
 }
-
+section {
+    width: 100vw;
+}
 section#section1 {
     background-color:#11ABBF;
     color: #EAEAEA;
@@ -39,7 +41,7 @@ nav ul {
     margin: 0px;
 }
 nav ul li {
-    padding: 0px 1.5em;
+    padding: 0px 2em;
 }
 
 header {
@@ -47,18 +49,22 @@ header {
     color: #EAEAEA;
 }
 
+#navbarToggleExternalContent ul {
+    list-style: none;
+    line-height: 2.5em;
+}
 /* ----------------------------- MAIN ------ */
 
 #section1>div {
     margin: 4em 1em;
 }
 
-.row {
+.rowflex {
     display: flex;
     flex-flow: row wrap;
 }
 
-section.centrer {
+.centrer {
     justify-content: center;
     align-items: center;
 }
@@ -75,7 +81,7 @@ section.centrer {
 }
 #section2 h2 {
     color: rgb(194, 170, 218);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .container-rose {
@@ -85,7 +91,7 @@ section.centrer {
     text-align: center;
     padding: 8vw 0px;
 }
-
+/* ---------------------- Section 3------*/
 #section3 img {
     width: 33vw;
 }
@@ -93,7 +99,17 @@ section.centrer {
 .container-violet {
     background-color: purple;
     width: 33vw;
+    text-align: center;
+    color: #EAEAEA;
 }
+
+#section3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* ----------------------- Section 4 ----- */ 
 #section4 p {
     width: 33vw;
     line-height: 1.5em;
@@ -103,6 +119,24 @@ section.centrer {
 
 #section4 h2 {
     margin: 0px;
-    padding: 0px 1.2em;
+    padding: 0em 0.4em 1em 0.4em;
     color: rgb(13, 150, 168);
 }
+
+@media screen and (max-width: 640px) {
+    #section3 {
+        flex-flow: column wrap;
+    }
+    #section3 img {
+        width: 100%;
+    }
+    .container-violet {
+        width: 100vw;
+        height: 86vw;
+    }
+    #section4 p {
+        width: 80vw;
+    }
+
+}
+

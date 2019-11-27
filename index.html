@@ -4,12 +4,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Responsive design</title>
         <meta name="description" content="Responsive">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <script></script>
         <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
        <header>
-           <nav>
+            <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                      <div class="bg-dark p-4 rowflex centrer">
+                        <ul>
+                            <li>PSD WEBSITES</li>
+                            <li>UI KITS</li>
+                            <li>PREMIUM PSD FILES</li>
+                            <li>ABOUT</li>
+                            <li>BLOG</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                      <a class="navbar-brand" href="#">Navigation</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </nav>
+                  </div>
+           <!-- <nav>
                <ul>
                    <li>PSD WEBSITES</li>
                    <li>UI KITS</li>
@@ -17,10 +38,10 @@
                    <li>ABOUT</li>
                    <li>BLOG</li>
                </ul>
-           </nav>
+           </nav> -->
        </header>
        <main>
-           <section id="section1" class="row centrer">
+           <section id="section1" class="rowflex centrer">
                <div>
                     <h1>Awesome free PSD <br> templates & ressources</h1>
                     <div>
@@ -31,29 +52,29 @@
                     </div>
                 </div>
            </section>
-           <section id="section2" class="row centrer">
+           <section id="section2" class="rowflex centrer">
                <div class="container-grey">
                   <h2>I'm like the Robin Hood of PSD files</h2>
                </div>
-               <div class="container-rose"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></div>
+               <div class="container-rose rowflex centrer"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></div>
            </section>
-           <section id="section3" class="row">
-               <div class="container-violet"></div>
+           <section id="section3">
+               <div class="container-violet rowflex centrer"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></div>
                <img src="./assets/img/2.jpg" alt="">
                 <img src="./assets/img/3.jpg" alt="">
            </section>
-           <section id="section4" class="row centrer">
+           <section id="section4" class="rowflex centrer">
                 
                <div>
                    <h2>BlazRobar.com</h2>
-                   <div class="container row">
+                   <div class="rowflex">
                         <div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta, dolor cupiditate eligendi fugit quibusdam qui minima consequuntur iusto, nulla perspiciatis possimus natus debitis sapiente quia. Quisquam dignissimos non ipsa?</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet nulla maiores quas fuga consequatur, commodi hic assumenda in atque cupiditate provident molestias cum deleniti ratione reiciendis repellat accusamus aspernatur!</p>
                         </div>
                         <div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta, dolor cupiditate eligendi fugit quibusdam qui minima consequuntur iusto, nulla perspiciatis possimus natus debitis sapiente quia. Quisquam dignissimos non ipsa?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet nulla maiores quas fuga consequatur, commodi hic assumenda in atque cupiditate provident molestias cum deleniti ratione reiciendis repellat accusamus aspernatur!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta, dolor cupiditate eligendi fugit quibusdam qui minima consequuntur iusto, nulla perspiciatis possimus natus debitis sapiente quia. Quisquam dignissimos non ipsa?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet nulla maiores quas fuga consequatur, commodi hic assumenda in atque cupiditate provident molestias cum deleniti ratione reiciendis repellat accusamus aspernatur!</p>
                         </div>
                    </div>
 
@@ -61,5 +82,8 @@
            </section>
        </main>
        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
     </body>
 </html>
