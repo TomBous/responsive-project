@@ -1,0 +1,41 @@
+
+
+/*------------------------- STRUCTURE ---*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+section#section1 {
+    background-color:#11ABBF;
+    height: 30vh;
+}
+section#section2 {
+    background-color:#27212D;
+}
+section#section3 {
+
+}
+section#section4 {
+    background-color:#EAEAEA;
+}
+
+/*--------------------------- HEADER ----------*/
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+nav ul li {
+    padding: 0px 1.5em;
+}
+
+header {
+    background-color: #373C3F;
+    color: #EAEAEA;
+}
